@@ -112,8 +112,7 @@ struct gaussParam
   gaussParam(const gaussParam &src_):
     variance(src_.variance),
     side(src_.side)
-  {
-  }
+  {};
 
   /**
    * @brief assignment operator
@@ -169,8 +168,7 @@ struct segmentThinParam
     postProcess(src_.postProcess),
     betaParam(src_.betaParam),
     cParam(src_.cParam)
-  {
-  }
+  {};
 
   /**
    * @brief element wise costructor
@@ -186,8 +184,7 @@ struct segmentThinParam
     postProcess(postProcess_),
     betaParam(betaParam_),
     cParam(cParam_)
-  {
-  }
+  {};
 
   /**
    * @brief assignment operator
